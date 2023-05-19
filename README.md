@@ -71,7 +71,7 @@ resource ="aws-s3_bucket" "four" {
   bucket = "abhilashdevil
 }
   
-resource "aws-iam_user" "five" {
+resource "aws_iam_user" "five" {
 name = ""
 }
   
